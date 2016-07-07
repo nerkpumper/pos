@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{97341C93-6853-49DD-B810-951633FE2949}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NerkSoft.FrameWork.MetroUI</RootNamespace>
+    <AssemblyName>NerkSoft.FrameWork.MetroUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsMessageBox.cs" />
+    <Compile Include="clsNotifyManager.cs" />
+    <Compile Include="clsProjectTemplate.cs" />
+    <Compile Include="clsUtilerias.cs" />
+    <Compile Include="NerkButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NerkButton.Designer.cs">
+      <DependentUpon>NerkButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NerkCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NerkCheckBox.Designer.cs">
+      <DependentUpon>NerkCheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NerkComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NerkComboBox.Designer.cs">
+      <DependentUpon>NerkComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NerkContexMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NerkContexMenu.Designer.cs">
+      <DependentUpon>NerkContexMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NerkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NerkForm.Designer.cs">
+      <DependentUpon>NerkForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NerkFormModulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NerkFormModulo.Designer.cs">
+      <DependentUpon>NerkFormModulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NerkFormModuloTop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NerkFormModuloTop.Designer.cs">
+      <DependentUpon>NerkFormModuloTop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NerkFormSeccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NerkFormSeccion.Designer.cs">
+      <DependentUpon>NerkFormSeccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NerkGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NerkGrid.Designer.cs">
+      <DependentUpon>NerkGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NerkLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NerkLabel.Designer.cs">
+      <DependentUpon>NerkLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NerkMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NerkMenu.Designer.cs">
+      <DependentUpon>NerkMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NerkMsgBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NerkMsgBox.Designer.cs">
+      <DependentUpon>NerkMsgBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NerkNotify.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NerkNotify.Designer.cs">
+      <DependentUpon>NerkNotify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NerkOption.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NerkOption.Designer.cs">
+      <DependentUpon>NerkOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NerkPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NerkPanel.Designer.cs">
+      <DependentUpon>NerkPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NerkPanelBloqueador.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NerkPanelBloqueador.Designer.cs">
+      <DependentUpon>NerkPanelBloqueador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NerkPnlMsgBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NerkPnlMsgBox.Designer.cs">
+      <DependentUpon>NerkPnlMsgBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NerkStatusStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NerkStatusStrip.Designer.cs">
+      <DependentUpon>NerkStatusStrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NerkLeftMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NerkLeftMenuItem.Designer.cs">
+      <DependentUpon>NerkLeftMenuItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NerkTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NerkTabControl.Designer.cs">
+      <DependentUpon>NerkTabControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NrkRecursos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NrkRecursos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="NerkTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NerkTextBox.Designer.cs">
+      <DependentUpon>NerkTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NerkForm.resx">
+      <DependentUpon>NerkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NerkFormModulo.resx">
+      <DependentUpon>NerkFormModulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NerkFormModuloTop.resx">
+      <DependentUpon>NerkFormModuloTop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NerkFormSeccion.resx">
+      <DependentUpon>NerkFormSeccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NerkMsgBox.resx">
+      <DependentUpon>NerkMsgBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NerkNotify.resx">
+      <DependentUpon>NerkNotify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NerkPanel.resx">
+      <DependentUpon>NerkPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NerkPnlMsgBox.resx">
+      <DependentUpon>NerkPnlMsgBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NrkRecursos.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>NrkRecursos.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NerkTextBox.resx">
+      <DependentUpon>NerkTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_window32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_window32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\requerido16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notify.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-32-w-icon-chevron-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-32-w-icon-chevron-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-24-w-icon-chevron-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-24-w-icon-chevron-right.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

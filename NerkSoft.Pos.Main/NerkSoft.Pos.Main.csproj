@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3C0D4640-B002-4F77-AF34-CF6582C6AECB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NerkSoft.Pos.Main</RootNamespace>
+    <AssemblyName>NerkSoft.Pos.Main</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1459831065_cash_register.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acceso\frmLogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acceso\frmLogIn.Designer.cs">
+      <DependentUpon>frmLogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clsViewManager.cs" />
+    <Compile Include="Dashboard\frmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\frmDashboard.Designer.cs">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModulos.Designer.cs">
+      <DependentUpon>frmModulos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NerkRes16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NerkRes16.resx</DependentUpon>
+    </Compile>
+    <Compile Include="NerkRes24.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NerkRes24.resx</DependentUpon>
+    </Compile>
+    <Compile Include="NerkRes32.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NerkRes32.resx</DependentUpon>
+    </Compile>
+    <Compile Include="POS\frmPOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\frmPOS.Designer.cs">
+      <DependentUpon>frmPOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Acceso\frmLogIn.resx">
+      <DependentUpon>frmLogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\frmDashboard.resx">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModulos.resx">
+      <DependentUpon>frmModulos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NerkRes16.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>NerkRes16.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NerkRes24.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>NerkRes24.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NerkRes32.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>NerkRes32.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\frmPOS.resx">
+      <DependentUpon>frmPOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NerkSoft.FrameWork.MetroUI\NerkSoft.FrameWork.MetroUI.csproj">
+      <Project>{97341c93-6853-49dd-b810-951633fe2949}</Project>
+      <Name>NerkSoft.FrameWork.MetroUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NerkSoft.Pos.Entities\NerkSoft.Pos.Entities.csproj">
+      <Project>{7ab56b97-553e-436f-8644-8c2c2a2f17ea}</Project>
+      <Name>NerkSoft.Pos.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comunication-32-b-icon-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comunication-32-w-icon-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Clientes\" />
+    <Folder Include="Configuracion\" />
+    <Folder Include="Empleados\" />
+    <Folder Include="Perfiles\" />
+    <Folder Include="Productos\" />
+    <Folder Include="Reportes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-24-b-icon-barchartasc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-24-b-icon-barcode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-24-b-icon-cartalt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-24-w-icon-barchartasc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-24-w-icon-barcode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-24-w-icon-cartalt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comunication-24-b-icon-contact-businesscard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comunication-24-b-icon-groups-friends.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comunication-24-w-icon-contact-businesscard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comunication-24-w-icon-groups-friends.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hosting-24-b-icon-bandwidth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hosting-24-b-icon-reliability.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hosting-24-w-icon-bandwidth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hosting-24-w-icon-reliability.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-24-b-icon-cog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-24-w-icon-cog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1459831065_cash_register.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,5 @@
+C:\PROYECTOS\NerkSoft\POS\NerkSoft.Pos.Entities\bin\Debug\NerkSoft.Pos.Entities.dll
+C:\PROYECTOS\NerkSoft\POS\NerkSoft.Pos.Entities\bin\Debug\NerkSoft.Pos.Entities.pdb
+C:\PROYECTOS\NerkSoft\POS\NerkSoft.Pos.Entities\obj\Debug\NerkSoft.Pos.Entities.dll
+C:\PROYECTOS\NerkSoft\POS\NerkSoft.Pos.Entities\obj\Debug\NerkSoft.Pos.Entities.pdb
+C:\PROYECTOS\NerkSoft\POS\NerkSoft.Pos.Entities\obj\Debug\NerkSoft.Pos.Entities.csprojResolveAssemblyReference.cache
