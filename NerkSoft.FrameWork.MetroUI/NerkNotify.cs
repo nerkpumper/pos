@@ -53,63 +53,62 @@ namespace NerkSoft.FrameWork.MetroUI
             {
                 case enumTipoNotify.Default:
 
-                    this.BackColor = Color.FromArgb(255, 213, 213, 213);
-                    
-                    this.lblTitle.ForeColor = Color.FromArgb(255, 0, 0, 0);
-                    this.lblClose.ForeColor = Color.FromArgb(255, 0, 0, 0);
-                    this.lblMsg.ForeColor = Color.FromArgb(255, 0, 0, 0);
-                    
+                    this.BackColor = clsProjectTemplate.objColors.Default.BackColor;
+
+                    this.lblTitle.ForeColor = clsProjectTemplate.objColors.Default.ForeColor;
+                    this.lblClose.ForeColor = clsProjectTemplate.objColors.Default.ForeColor;
+                    this.lblMsg.ForeColor = clsProjectTemplate.objColors.Default.ForeColor;                    
 
                     break;
                 case enumTipoNotify.Danger:
 
-                    this.BackColor = Color.FromArgb(255, 206, 53, 44);
-                    
-                    this.lblTitle.ForeColor = Color.FromArgb(255, 255, 255, 255);
-                    this.lblClose.ForeColor = Color.FromArgb(255, 255, 255, 255);
-                    this.lblMsg.ForeColor = Color.FromArgb(255, 255, 255, 255);
+                    this.BackColor = clsProjectTemplate.objColors.Danger.BackColor;
+
+                    this.lblTitle.ForeColor = clsProjectTemplate.objColors.Danger.ForeColor;
+                    this.lblClose.ForeColor = clsProjectTemplate.objColors.Danger.ForeColor;
+                    this.lblMsg.ForeColor = clsProjectTemplate.objColors.Danger.ForeColor;
                     
                     break;
                 case enumTipoNotify.Success:
 
-                    this.BackColor = Color.FromArgb(255, 96, 169, 23);
-                    
-                    this.lblTitle.ForeColor = Color.FromArgb(255, 255, 255, 255);
-                    this.lblClose.ForeColor = Color.FromArgb(255, 255, 255, 255);
-                    this.lblMsg.ForeColor = Color.FromArgb(255, 255, 255, 255);
+                    this.BackColor = clsProjectTemplate.objColors.Success.BackColor;
+
+                    this.lblTitle.ForeColor = clsProjectTemplate.objColors.Success.ForeColor;
+                    this.lblClose.ForeColor = clsProjectTemplate.objColors.Success.ForeColor;
+                    this.lblMsg.ForeColor = clsProjectTemplate.objColors.Success.ForeColor;
                    
                     break;
 
                 case enumTipoNotify.Primary:
 
-                    this.BackColor = Color.FromArgb(255, 29, 161, 226);
-                    
-                    this.lblTitle.ForeColor = Color.FromArgb(255, 255, 255, 255);
-                    this.lblClose.ForeColor = Color.FromArgb(255, 255, 255, 255);
-                    this.lblMsg.ForeColor = Color.FromArgb(255, 255, 255, 255);
+                    this.BackColor = clsProjectTemplate.objColors.Primary.BackColor;
+
+                    this.lblTitle.ForeColor = clsProjectTemplate.objColors.Primary.ForeColor;
+                    this.lblClose.ForeColor = clsProjectTemplate.objColors.Primary.ForeColor;
+                    this.lblMsg.ForeColor = clsProjectTemplate.objColors.Primary.ForeColor;
                    
                     break;
 
                 case enumTipoNotify.Warning:
 
-                    this.BackColor = Color.FromArgb(255, 250, 104, 0);
-                   
-                    this.lblTitle.ForeColor = Color.FromArgb(255, 255, 255, 255);
-                    this.lblClose.ForeColor = Color.FromArgb(255, 255, 255, 255);
-                    this.lblMsg.ForeColor = Color.FromArgb(255, 255, 255, 255);
+                    this.BackColor = clsProjectTemplate.objColors.Warning.BackColor;
+
+                    this.lblTitle.ForeColor = clsProjectTemplate.objColors.Warning.ForeColor;
+                    this.lblClose.ForeColor = clsProjectTemplate.objColors.Warning.ForeColor;
+                    this.lblMsg.ForeColor = clsProjectTemplate.objColors.Warning.ForeColor;
                     
                     break;
                 default:
 
-                    this.BackColor = Color.FromArgb(255, 213, 213, 213);
-                    
-                    this.lblTitle.ForeColor = Color.FromArgb(255, 0, 0, 0);
-                    this.lblClose.ForeColor = Color.FromArgb(255, 0, 0, 0);
-                    this.lblMsg.ForeColor = Color.FromArgb(255, 0, 0, 0);
+                    this.BackColor = clsProjectTemplate.objColors.Default.BackColor;
+
+                    this.lblTitle.ForeColor = clsProjectTemplate.objColors.Default.ForeColor;
+                    this.lblClose.ForeColor = clsProjectTemplate.objColors.Default.ForeColor;
+                    this.lblMsg.ForeColor = clsProjectTemplate.objColors.Default.ForeColor;      
                     
                     break;
             }
-            //this.Font = new Font("Segoe UI", (float)11.7);
+            //this.Font = new Font(clsProjectTemplate.NerkFont.Fuente, (float)11.7);
             this.Invalidate();
         }
 

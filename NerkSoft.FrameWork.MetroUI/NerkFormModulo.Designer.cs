@@ -92,7 +92,7 @@
             // 
             this.lblShowHideMenu.BackColor = System.Drawing.Color.Red;
             this.lblShowHideMenu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblShowHideMenu.Font = new System.Drawing.Font("Segoe UI", 27.75F);
+            this.lblShowHideMenu.Font = new System.Drawing.Font(clsProjectTemplate.objFont.Fuente, 27.75F);
             this.lblShowHideMenu.Image = global::NerkSoft.FrameWork.MetroUI.NrkRecursos.menu_24_w_icon_chevron_left;
             this.lblShowHideMenu.Location = new System.Drawing.Point(519, 26);
             this.lblShowHideMenu.Name = "lblShowHideMenu";

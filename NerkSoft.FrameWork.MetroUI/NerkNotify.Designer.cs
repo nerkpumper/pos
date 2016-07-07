@@ -35,7 +35,7 @@
             // 
             // lblMsg
             // 
-            this.lblMsg.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.lblMsg.Font = new System.Drawing.Font(clsProjectTemplate.objFont.Fuente, 10F);
             this.lblMsg.Location = new System.Drawing.Point(3, 27);
             this.lblMsg.Name = "lblMsg";
             this.lblMsg.Size = new System.Drawing.Size(297, 93);
@@ -45,7 +45,7 @@
             // lblClose
             // 
             this.lblClose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblClose.Font = new System.Drawing.Font("Segoe UI", 11.7F);
+            this.lblClose.Font = new System.Drawing.Font(clsProjectTemplate.objFont.Fuente, 11.7F);
             this.lblClose.Location = new System.Drawing.Point(274, 2);
             this.lblClose.Name = "lblClose";
             this.lblClose.Size = new System.Drawing.Size(26, 25);
@@ -56,7 +56,7 @@
             // 
             // lblTitle
             // 
-            this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
+            this.lblTitle.Font = new System.Drawing.Font(clsProjectTemplate.objFont.Fuente, 11F, System.Drawing.FontStyle.Bold);
             this.lblTitle.Location = new System.Drawing.Point(3, 2);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(294, 25);

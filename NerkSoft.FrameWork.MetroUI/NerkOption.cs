@@ -21,7 +21,7 @@ namespace NerkSoft.FrameWork.MetroUI
         {
             base.OnCreateControl();
 
-            this.Font = new Font("Segoe UI", (float)10);
+            this.Font = new Font(clsProjectTemplate.objFont.Fuente, (float)10);
             this.SetStyle(ControlStyles.UserPaint, true);
             this.SetStyle(ControlStyles.AllPaintingInWmPaint, true);
 

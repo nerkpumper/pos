@@ -19,3 +19,23 @@ C:\PROYECTOS\NerkSoft\POS\NerkSoft.Pos.Main\obj\Debug\NerkSoft.Pos.Main.frmModul
 C:\PROYECTOS\NerkSoft\POS\NerkSoft.Pos.Main\obj\Debug\NerkSoft.Pos.Main.Dashboard.frmDashboard.resources
 C:\PROYECTOS\NerkSoft\POS\NerkSoft.Pos.Main\obj\Debug\NerkSoft.Pos.Main.POS.frmPOS.resources
 C:\PROYECTOS\NerkSoft\POS\NerkSoft.Pos.Main\obj\Debug\NerkSoft.Pos.Main.Acceso.frmLogIn.resources
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Main\bin\Debug\NerkSoft.Pos.Main.exe.config
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Main\obj\Debug\NerkSoft.Pos.Main.exe
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Main\obj\Debug\NerkSoft.Pos.Main.pdb
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Main\bin\Debug\NerkSoft.Pos.Main.exe
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Main\bin\Debug\NerkSoft.Pos.Main.pdb
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Main\bin\Debug\NerkSoft.FrameWork.MetroUI.dll
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Main\bin\Debug\NerkSoft.Pos.Entities.dll
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Main\bin\Debug\NerkSoft.FrameWork.MetroUI.pdb
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Main\bin\Debug\NerkSoft.Pos.Entities.pdb
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Main\obj\Debug\NerkSoft.Pos.Main.csprojResolveAssemblyReference.cache
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Main\obj\Debug\NerkSoft.Pos.Main.Acceso.frmLogIn.resources
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Main\obj\Debug\NerkSoft.Pos.Main.Dashboard.frmDashboard.resources
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Main\obj\Debug\NerkSoft.Pos.Main.frmModulos.resources
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Main\obj\Debug\NerkSoft.Pos.Main.frmPrincipal.resources
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Main\obj\Debug\NerkSoft.Pos.Main.NerkRes16.resources
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Main\obj\Debug\NerkSoft.Pos.Main.NerkRes24.resources
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Main\obj\Debug\NerkSoft.Pos.Main.NerkRes32.resources
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Main\obj\Debug\NerkSoft.Pos.Main.POS.frmPOS.resources
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Main\obj\Debug\NerkSoft.Pos.Main.Properties.Resources.resources
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Main\obj\Debug\NerkSoft.Pos.Main.csproj.GenerateResource.Cache

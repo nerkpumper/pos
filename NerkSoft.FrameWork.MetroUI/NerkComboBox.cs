@@ -43,7 +43,7 @@ namespace NerkSoft.FrameWork.MetroUI
             ttmsg.ToolTipIcon = ToolTipIcon.Info;
             ttmsg.ShowAlways = false;
 
-            this.Font = new Font("Segoe UI", (float)10);
+            this.Font = new Font(clsProjectTemplate.objFont.Fuente, (float)10);
         }
 
         protected override void OnCreateControl()

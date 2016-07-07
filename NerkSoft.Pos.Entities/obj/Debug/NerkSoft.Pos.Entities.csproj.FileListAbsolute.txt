@@ -3,3 +3,8 @@ C:\PROYECTOS\NerkSoft\POS\NerkSoft.Pos.Entities\bin\Debug\NerkSoft.Pos.Entities.
 C:\PROYECTOS\NerkSoft\POS\NerkSoft.Pos.Entities\obj\Debug\NerkSoft.Pos.Entities.dll
 C:\PROYECTOS\NerkSoft\POS\NerkSoft.Pos.Entities\obj\Debug\NerkSoft.Pos.Entities.pdb
 C:\PROYECTOS\NerkSoft\POS\NerkSoft.Pos.Entities\obj\Debug\NerkSoft.Pos.Entities.csprojResolveAssemblyReference.cache
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Entities\bin\Debug\NerkSoft.Pos.Entities.dll
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Entities\bin\Debug\NerkSoft.Pos.Entities.pdb
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Entities\obj\Debug\NerkSoft.Pos.Entities.csprojResolveAssemblyReference.cache
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Entities\obj\Debug\NerkSoft.Pos.Entities.dll
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.Pos.Entities\obj\Debug\NerkSoft.Pos.Entities.pdb

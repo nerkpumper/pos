@@ -37,7 +37,7 @@
             // 
             this.lblFormTitle.BackColor = System.Drawing.Color.White;
             this.lblFormTitle.Cursor = System.Windows.Forms.Cursors.SizeAll;
-            this.lblFormTitle.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFormTitle.Font = new System.Drawing.Font(clsProjectTemplate.objFont.Fuente, 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFormTitle.Location = new System.Drawing.Point(26, 13);
             this.lblFormTitle.Name = "lblFormTitle";
             this.lblFormTitle.Size = new System.Drawing.Size(1011, 105);

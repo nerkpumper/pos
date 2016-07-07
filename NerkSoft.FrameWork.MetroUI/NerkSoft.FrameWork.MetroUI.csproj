@@ -141,6 +141,12 @@
     <Compile Include="NerkPanelBloqueador.Designer.cs">
       <DependentUpon>NerkPanelBloqueador.cs</DependentUpon>
     </Compile>
+    <Compile Include="NerkPanelNoCollapse.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NerkPanelNoCollapse.Designer.cs">
+      <DependentUpon>NerkPanelNoCollapse.cs</DependentUpon>
+    </Compile>
     <Compile Include="NerkPnlMsgBox.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -205,6 +211,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NerkPanel.resx">
       <DependentUpon>NerkPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NerkPanelNoCollapse.resx">
+      <DependentUpon>NerkPanelNoCollapse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NerkPnlMsgBox.resx">
       <DependentUpon>NerkPnlMsgBox.cs</DependentUpon>

@@ -24,9 +24,9 @@ namespace NerkSoft.FrameWork.MetroUI
         {
             base.OnCreateControl();
 
-            this.AlternatingRowsDefaultCellStyle.Font = new Font("Segoe UI", (float)8);
-            this.RowsDefaultCellStyle.Font = new Font("Segoe UI", (float)8);
-            this.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", (float)8, FontStyle.Bold);
+            this.AlternatingRowsDefaultCellStyle.Font = new Font(clsProjectTemplate.objFont.Fuente, (float)8);
+            this.RowsDefaultCellStyle.Font = new Font(clsProjectTemplate.objFont.Fuente, (float)8);
+            this.ColumnHeadersDefaultCellStyle.Font = new Font(clsProjectTemplate.objFont.Fuente, (float)8, FontStyle.Bold);
 
             this.EnableHeadersVisualStyles = true;
                         

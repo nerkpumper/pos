@@ -60,58 +60,52 @@ namespace NerkSoft.FrameWork.MetroUI
             {
                 case enumTipoMsgBox.Default:
 
-                    this.BackColor = Color.FromArgb(255, 213, 213, 213);
+                    this.BackColor = clsProjectTemplate.objColors.Default.BackColor;
                     this.lblMsg.BackColor = this.BackColor;
-                    
-                    
 
-                    this.lblMsg.ForeColor = Color.FromArgb(255, 0, 0, 0);
-                    
+                    this.lblMsg.ForeColor = clsProjectTemplate.objColors.Default.ForeColor;
 
                     break;
                 case enumTipoMsgBox.Danger:
 
-                    this.BackColor = Color.FromArgb(255, 206, 53, 44);
+                    this.BackColor = clsProjectTemplate.objColors.Danger.BackColor;
                     this.lblMsg.BackColor = this.BackColor;
-                    
-                    this.lblMsg.ForeColor = Color.FromArgb(255, 255, 255, 255);
-                    
+
+                    this.lblMsg.ForeColor = clsProjectTemplate.objColors.Danger.ForeColor;                    
                     
                     break;
                 case enumTipoMsgBox.Success:
 
-                    this.BackColor = Color.FromArgb(255, 96, 169, 23);
+                    this.BackColor = clsProjectTemplate.objColors.Success.BackColor;
                     this.lblMsg.BackColor = this.BackColor;
-                    
-                    this.lblMsg.ForeColor = Color.FromArgb(255, 255, 255, 255);
-                    
+
+                    this.lblMsg.ForeColor = clsProjectTemplate.objColors.Success.ForeColor;                   
 
                     break;
 
                 case enumTipoMsgBox.Primary:
 
-                    this.BackColor = Color.FromArgb(255, 29, 161, 226);
+                    this.BackColor = clsProjectTemplate.objColors.Primary.BackColor;
                     this.lblMsg.BackColor = this.BackColor;
-                    
-                    this.lblMsg.ForeColor = Color.FromArgb(255, 255, 255, 255);
+
+                    this.lblMsg.ForeColor = clsProjectTemplate.objColors.Primary.ForeColor;
 
                     break;
 
                 case enumTipoMsgBox.Warning:
 
-                    this.BackColor = Color.FromArgb(255, 250, 104, 0);
+                    this.BackColor = clsProjectTemplate.objColors.Warning.BackColor;
                     this.lblMsg.BackColor = this.BackColor;
-                    
-                    this.lblMsg.ForeColor = Color.FromArgb(255, 255, 255, 255);
+
+                    this.lblMsg.ForeColor = clsProjectTemplate.objColors.Warning.ForeColor;
 
                     break;
                 default:
 
-                    this.BackColor = Color.FromArgb(255, 213, 213, 213);
+                    this.BackColor = clsProjectTemplate.objColors.Default.BackColor;
                     this.lblMsg.BackColor = this.BackColor;
-                    
 
-                    this.lblMsg.ForeColor = Color.FromArgb(255, 0, 0, 0);
+                    this.lblMsg.ForeColor = clsProjectTemplate.objColors.Default.ForeColor;
 
                     break;
             }

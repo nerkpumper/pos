@@ -27,6 +27,8 @@ namespace NerkSoft.FrameWork.MetroUI
         private enumTipoPanel menumTipoPanel;
         private int mMaximunHeigth;
         private bool misToogling = false;
+        private bool mallowCollapse = true;
+
 
 
         public NerkPanel()
@@ -65,7 +67,7 @@ namespace NerkSoft.FrameWork.MetroUI
 
         private void lblTitle_Click(object sender, EventArgs e)
         {
-            toogleCollapsed();
+            if(this.mallowCollapse) toogleCollapsed();
         }
 
         private void toogleCollapsed()
@@ -128,74 +130,74 @@ namespace NerkSoft.FrameWork.MetroUI
             {
                 case enumTipoPanel.Default:
 
-                    this.pnlHeading.BackColor = Color.FromArgb(255, 213, 213, 213);
+                    this.pnlHeading.BackColor = clsProjectTemplate.objColors.Default.BackColor;
                     this.pnlLeft.BackColor = this.pnlHeading.BackColor;
                     this.pnlRight.BackColor = this.pnlHeading.BackColor;
                     this.pnlBottom.BackColor = this.pnlHeading.BackColor;
 
-                    this.lblTitle.ForeColor = Color.FromArgb(255, 0, 0, 0);
-                    this.lblCollapse.ForeColor = Color.FromArgb(255, 0, 0, 0);
+                    this.lblTitle.ForeColor = clsProjectTemplate.objColors.Default.ForeColor;
+                    this.lblCollapse.ForeColor = this.lblTitle.ForeColor;
 
                     break;
                 case enumTipoPanel.Danger:
 
-                    this.pnlHeading.BackColor = Color.FromArgb(255, 206, 53, 44);
+                    this.pnlHeading.BackColor = clsProjectTemplate.objColors.Danger.BackColor;
                     this.pnlLeft.BackColor = this.pnlHeading.BackColor;
                     this.pnlRight.BackColor = this.pnlHeading.BackColor;
                     this.pnlBottom.BackColor = this.pnlHeading.BackColor;
 
-                    this.lblTitle.ForeColor = Color.FromArgb(255, 255, 255, 255);
-                    this.lblCollapse.ForeColor = Color.FromArgb(255, 255, 255, 255);
+                    this.lblTitle.ForeColor = clsProjectTemplate.objColors.Danger.ForeColor;
+                    this.lblCollapse.ForeColor = this.lblTitle.ForeColor;
 
                     break;
                 case enumTipoPanel.Success:
 
-                    this.pnlHeading.BackColor = Color.FromArgb(255, 96, 169, 23);
+                    this.pnlHeading.BackColor = clsProjectTemplate.objColors.Success.BackColor;
                     this.pnlLeft.BackColor = this.pnlHeading.BackColor;
                     this.pnlRight.BackColor = this.pnlHeading.BackColor;
                     this.pnlBottom.BackColor = this.pnlHeading.BackColor;
 
-                    this.lblTitle.ForeColor = Color.FromArgb(255, 255, 255, 255);
-                    this.lblCollapse.ForeColor = Color.FromArgb(255, 255, 255, 255);
+                    this.lblTitle.ForeColor = clsProjectTemplate.objColors.Success.ForeColor;
+                    this.lblCollapse.ForeColor = this.lblTitle.ForeColor;
 
                     break;
 
                 case enumTipoPanel.Primary:
 
-                    this.pnlHeading.BackColor = Color.FromArgb(255, 29, 161, 226);
+                    this.pnlHeading.BackColor = clsProjectTemplate.objColors.Primary.BackColor;
                     this.pnlLeft.BackColor = this.pnlHeading.BackColor;
                     this.pnlRight.BackColor = this.pnlHeading.BackColor;
                     this.pnlBottom.BackColor = this.pnlHeading.BackColor;
 
-                    this.lblTitle.ForeColor = Color.FromArgb(255, 255, 255, 255);
-                    this.lblCollapse.ForeColor = Color.FromArgb(255, 255, 255, 255);
+                    this.lblTitle.ForeColor = clsProjectTemplate.objColors.Primary.ForeColor;
+                    this.lblCollapse.ForeColor = this.lblTitle.ForeColor;
 
                     break;
 
                 case enumTipoPanel.Warning:
 
-                    this.pnlHeading.BackColor = Color.FromArgb(255, 250, 104, 0);
+                    this.pnlHeading.BackColor = clsProjectTemplate.objColors.Warning.BackColor;
                     this.pnlLeft.BackColor = this.pnlHeading.BackColor;
                     this.pnlRight.BackColor = this.pnlHeading.BackColor;
                     this.pnlBottom.BackColor = this.pnlHeading.BackColor;
 
-                    this.lblTitle.ForeColor = Color.FromArgb(255, 255, 255, 255);
-                    this.lblCollapse.ForeColor = Color.FromArgb(255, 255, 255, 255);
+                    this.lblTitle.ForeColor = clsProjectTemplate.objColors.Warning.ForeColor;
+                    this.lblCollapse.ForeColor = this.lblTitle.ForeColor;
 
                     break;
                 default:
 
-                    this.pnlHeading.BackColor = Color.FromArgb(255, 213, 213, 213);
+                     this.pnlHeading.BackColor = clsProjectTemplate.objColors.Default.BackColor;
                     this.pnlLeft.BackColor = this.pnlHeading.BackColor;
                     this.pnlRight.BackColor = this.pnlHeading.BackColor;
                     this.pnlBottom.BackColor = this.pnlHeading.BackColor;
 
-                    this.lblTitle.ForeColor = Color.FromArgb(255, 0, 0, 0);
-                    this.lblCollapse.ForeColor = Color.FromArgb(255, 0, 0, 0);
+                    this.lblTitle.ForeColor = clsProjectTemplate.objColors.Default.ForeColor;
+                    this.lblCollapse.ForeColor = this.lblTitle.ForeColor;
 
                     break;
             }
-            //this.Font = new Font("Segoe UI", (float)11.7);
+            //this.Font = new Font(clsProjectTemplate.NerkFont.Fuente, (float)11.7);
             this.Invalidate();
         }
 
@@ -268,6 +270,34 @@ namespace NerkSoft.FrameWork.MetroUI
             {
                 this.lblTitle.Font = value;
                 this.lblCollapse.Font = value;
+                this.Invalidate();
+            }
+        }
+
+        [Browsable(true),
+        Category("NerkSoft"),
+        Description("Indica si se puede colapsar o no")]
+        public bool AllowCollapse
+        {
+            get { return this.mallowCollapse; }
+            set
+            {
+                if (misCollapsed)
+                    IsCollapsed = false;
+
+                this.mallowCollapse = value;
+
+                if (!this.mallowCollapse)
+                {
+                    lblCollapse.Visible = false;
+                    lblTitle.Cursor = Cursors.Default;
+                }
+                else
+                {
+                    lblCollapse.Visible = true;
+                    lblTitle.Cursor = Cursors.Hand;
+                }
+                
                 this.Invalidate();
             }
         }

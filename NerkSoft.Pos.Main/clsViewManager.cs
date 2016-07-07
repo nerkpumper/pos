@@ -9,6 +9,7 @@ namespace NerkSoft.Pos.Main
 {
     public class clsViewManager
     {
+        public static frmPrincipal Principal = null;
         public static NerkSoft.FrameWork.MetroUI.NerkFormModulo ViewManager = null;
         public static NerkSoft.FrameWork.MetroUI.NerkFormSeccion POS = null;
 

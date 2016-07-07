@@ -11,12 +11,14 @@ namespace NerkSoft.Pos.Main
 {   
     public partial class frmPrincipal : NerkSoft.FrameWork.MetroUI.NerkForm
     {
+        
         public frmPrincipal()
         {
             InitializeComponent();
             this.Size = new Size(Screen.PrimaryScreen.WorkingArea.Width, Screen.PrimaryScreen.WorkingArea.Height);
             this.Location = new Point(0, 0);
             this.SetFormTitle(clsProjectTemplate.objMain.Title);
+            this.lblSystemName.Text = clsProjectTemplate.objMain.Title;
             this.DisableTitleBar();
 
             this.NavBar.BackColor = clsProjectTemplate.objMain.NavBarBackColor;
@@ -25,7 +27,7 @@ namespace NerkSoft.Pos.Main
             this.lblUserName.BackColor = clsProjectTemplate.objMain.NavBarBackColor;
             this.lblUserName.ForeColor = clsProjectTemplate.objMain.NavBarForeColor;
 
-            
+            clsViewManager.Principal = this;
         }
 
         private void frmPrincipal_Load(object sender, EventArgs e)
@@ -43,6 +45,11 @@ namespace NerkSoft.Pos.Main
             form.Dock = DockStyle.Fill;
 
             form.Show();
+        }
+
+        public void SetCurrentSeccion(string seccion)
+        {
+            this.lblSeccion.Text = seccion;
         }
 
 

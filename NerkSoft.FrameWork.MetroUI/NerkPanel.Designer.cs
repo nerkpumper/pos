@@ -53,7 +53,7 @@
             // 
             this.lblCollapse.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblCollapse.Dock = System.Windows.Forms.DockStyle.Right;
-            this.lblCollapse.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.lblCollapse.Font = new System.Drawing.Font(clsProjectTemplate.objFont.Fuente, 11F);
             this.lblCollapse.ForeColor = System.Drawing.Color.White;
             this.lblCollapse.Location = new System.Drawing.Point(401, 0);
             this.lblCollapse.Name = "lblCollapse";
@@ -67,7 +67,7 @@
             // 
             this.lblTitle.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblTitle.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.lblTitle.Font = new System.Drawing.Font(clsProjectTemplate.objFont.Fuente, 11F);
             this.lblTitle.ForeColor = System.Drawing.Color.White;
             this.lblTitle.Location = new System.Drawing.Point(0, 0);
             this.lblTitle.Name = "lblTitle";

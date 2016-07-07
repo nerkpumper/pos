@@ -54,7 +54,7 @@ namespace NerkSoft.FrameWork.MetroUI
         protected override void OnCreateControl()
         {
             base.OnCreateControl();
-            this.Font = new Font("Segoe UI", (float)10);
+            this.Font = new Font(clsProjectTemplate.objFont.Fuente, (float)10);
             Redimencionar();
             //colEntrar = clsProjectTemplate.objNrkTextBox.ColorEnter;
             //colSalir = clsProjectTemplate.objNrkTextBox.ColorLeave;

@@ -21,6 +21,8 @@ namespace NerkSoft.FrameWork.MetroUI
         private Image _imgSelected;
         private Image _img;
 
+        private string mstrSeccionName;
+
         public NerkLeftMenuItem()
         {
             InitializeComponent();
@@ -98,6 +100,19 @@ namespace NerkSoft.FrameWork.MetroUI
                 this.Invalidate();
             }
         }
+
+        [Browsable(true),
+        Category("NerkSoft"),
+        Description("Establece el nombre de la sección")]
+        public string SeccionName
+        {
+            get { return this.mstrSeccionName; }
+            set
+            {
+                this.mstrSeccionName = value;                
+            }
+        }
+
 
         protected override void OnPaint(PaintEventArgs pevent)
         {

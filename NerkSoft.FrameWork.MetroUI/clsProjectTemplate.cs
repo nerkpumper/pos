@@ -30,6 +30,10 @@ namespace NerkSoft.FrameWork.MetroUI
     public class clsProjectTemplate
     {
 
+        public class objFont
+        {
+            public static string Fuente = "Segoe UI";
+        }
 
         public class objNerkButton
         {
@@ -97,7 +101,7 @@ namespace NerkSoft.FrameWork.MetroUI
             public static Color ColorLeave = Color.FromArgb(255, 217, 217, 217);
             public static Color ColorEnter = Color.FromArgb(255, 32, 134, 191);
 
-            public static Color BackColorEnter = Color.FromArgb(255, 242, 246, 249); // Color.White;
+            public static Color BackColorEnter = Color.FromArgb(255, 32, 134, 191); // Color.White;
             public static Color ForeColorEnter = Color.Black;
 
             public static Color BackColorLeave = Color.White;
@@ -123,8 +127,73 @@ namespace NerkSoft.FrameWork.MetroUI
             public static Color FlechitaLeave = Color.Black; // Color.FromArgb(255, 217, 217, 217);
         }
 
-        public class MsgColors
+        public class objColors
         {
+            public class Default
+            {
+                public static Color BackColor = Color.FromArgb(255, 255, 255, 255);
+                public static Color ForeColor = Color.FromArgb(255, 38, 38, 38);
+
+                public static Color BorderColor = Color.FromArgb(255, 217, 217, 217);
+
+                public static Color HoverBackColor = Color.FromArgb(255, 255, 255, 255);
+                public static Color HoverBorderColor = Color.FromArgb(255, 255, 255, 255);
+            }
+
+            public class Primary
+            {
+                public static Color BackColor = Color.FromArgb(255, 66, 139, 202);
+                public static Color ForeColor = Color.FromArgb(255, 255, 255, 255);
+
+                public static Color BorderColor = Color.FromArgb(255, 53, 126, 189);
+
+                public static Color HoverBackColor = Color.FromArgb(255, 50, 118, 177);
+                public static Color HoverBorderColor = Color.FromArgb(255, 40, 94, 142);
+            }
+            public class Success
+            {
+                public static Color BackColor = Color.FromArgb(255, 92, 184, 92);
+                public static Color ForeColor = Color.FromArgb(255, 255, 255, 255);
+
+                public static Color BorderColor = Color.FromArgb(255, 76, 174, 76);
+
+                public static Color HoverBackColor = Color.FromArgb(255, 71, 164, 71);
+                public static Color HoverBorderColor = Color.FromArgb(255, 57, 132, 57);
+            }
+
+            public class Info
+            {
+                public static Color BackColor = Color.FromArgb(255, 91, 192, 222);
+                public static Color ForeColor = Color.FromArgb(255, 255, 255, 255);
+
+                public static Color BorderColor = Color.FromArgb(255, 70, 184, 218);
+
+                public static Color HoverBackColor = Color.FromArgb(255, 57, 179, 215);
+                public static Color HoverBorderColor = Color.FromArgb(255, 38, 154, 188);
+            }
+
+            public class Warning
+            {
+                public static Color BackColor = Color.FromArgb(255, 240, 173, 78);
+                public static Color ForeColor = Color.FromArgb(255, 255, 255, 255);
+
+                public static Color BorderColor = Color.FromArgb(255, 238, 162, 54);
+
+                public static Color HoverBackColor = Color.FromArgb(255, 237, 156, 40);
+                public static Color HoverBorderColor = Color.FromArgb(255, 213, 133, 18);
+            }
+
+            public class Danger
+            {
+                public static Color BackColor = Color.FromArgb(255, 217, 83, 79);
+                public static Color ForeColor = Color.FromArgb(255, 255, 255, 255);
+
+                public static Color BorderColor = Color.FromArgb(255, 212, 63, 58);
+
+                public static Color HoverBackColor = Color.FromArgb(255, 210, 50, 45);
+                public static Color HoverBorderColor = Color.FromArgb(255, 172, 41, 37);
+            }
+
             public class MsgError
             {
                 public static Color BackColor = Color.Red;

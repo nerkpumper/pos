@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogIn));
             this.NavBar = new System.Windows.Forms.Panel();
-            this.lblSystemName = new NerkSoft.FrameWork.MetroUI.NerkLabel();
             this.lblSistemaLabel = new NerkSoft.FrameWork.MetroUI.NerkLabel();
+            this.lblSystemName = new NerkSoft.FrameWork.MetroUI.NerkLabel();
             this.txtUsuario = new NerkSoft.FrameWork.MetroUI.NerkTextBox();
             this.nerkLabel1 = new NerkSoft.FrameWork.MetroUI.NerkLabel();
             this.nerkLabel2 = new NerkSoft.FrameWork.MetroUI.NerkLabel();
@@ -68,6 +68,17 @@
             this.NavBar.Size = new System.Drawing.Size(514, 79);
             this.NavBar.TabIndex = 5;
             // 
+            // lblSistemaLabel
+            // 
+            this.lblSistemaLabel.BackColor = System.Drawing.Color.Transparent;
+            this.lblSistemaLabel.Font = new System.Drawing.Font("Segoe UI Light", 18F);
+            this.lblSistemaLabel.ForeColor = System.Drawing.Color.White;
+            this.lblSistemaLabel.Location = new System.Drawing.Point(36, 3);
+            this.lblSistemaLabel.Name = "lblSistemaLabel";
+            this.lblSistemaLabel.Size = new System.Drawing.Size(93, 31);
+            this.lblSistemaLabel.TabIndex = 7;
+            this.lblSistemaLabel.Text = "Sistema";
+            // 
             // lblSystemName
             // 
             this.lblSystemName.BackColor = System.Drawing.Color.Transparent;
@@ -79,17 +90,6 @@
             this.lblSystemName.TabIndex = 6;
             this.lblSystemName.Text = "Punto de Venta";
             this.lblSystemName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSistemaLabel
-            // 
-            this.lblSistemaLabel.BackColor = System.Drawing.Color.Transparent;
-            this.lblSistemaLabel.Font = new System.Drawing.Font("Segoe UI Light", 18F);
-            this.lblSistemaLabel.ForeColor = System.Drawing.Color.White;
-            this.lblSistemaLabel.Location = new System.Drawing.Point(36, 3);
-            this.lblSistemaLabel.Name = "lblSistemaLabel";
-            this.lblSistemaLabel.Size = new System.Drawing.Size(93, 31);
-            this.lblSistemaLabel.TabIndex = 7;
-            this.lblSistemaLabel.Text = "Sistema";
             // 
             // txtUsuario
             // 
@@ -178,7 +178,7 @@
             this.btnEntrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(110)))), ((int)(((byte)(174)))));
             this.btnEntrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(134)))), ((int)(((byte)(191)))));
             this.btnEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEntrar.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.btnEntrar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEntrar.ForeColor = System.Drawing.Color.White;
             this.btnEntrar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnEntrar.IsCustom = false;

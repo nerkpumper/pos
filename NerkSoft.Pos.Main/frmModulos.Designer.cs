@@ -36,6 +36,7 @@
             this.mnuEmpleados = new NerkSoft.FrameWork.MetroUI.NerkLeftMenuItem();
             this.mnuPerfiles = new NerkSoft.FrameWork.MetroUI.NerkLeftMenuItem();
             this.mnuConfiguracion = new NerkSoft.FrameWork.MetroUI.NerkLeftMenuItem();
+            this.mnuSalir = new NerkSoft.FrameWork.MetroUI.NerkLeftMenuItem();
             this.MenuLeft.SuspendLayout();
             this.pnlContainerSeccion.SuspendLayout();
             this.pnlMainContainer.SuspendLayout();
@@ -43,6 +44,7 @@
             // 
             // MenuLeft
             // 
+            this.MenuLeft.Controls.Add(this.mnuSalir);
             this.MenuLeft.Controls.Add(this.mnuConfiguracion);
             this.MenuLeft.Controls.Add(this.mnuPerfiles);
             this.MenuLeft.Controls.Add(this.mnuEmpleados);
@@ -80,6 +82,7 @@
             this.mnuDashboard.IsSelected = false;
             this.mnuDashboard.Location = new System.Drawing.Point(5, 167);
             this.mnuDashboard.Name = "mnuDashboard";
+            this.mnuDashboard.SeccionName = null;
             this.mnuDashboard.Size = new System.Drawing.Size(175, 39);
             this.mnuDashboard.TabIndex = 0;
             this.mnuDashboard.Tag = "frmDashboard";
@@ -106,6 +109,7 @@
             this.mnuPOS.IsSelected = false;
             this.mnuPOS.Location = new System.Drawing.Point(-1, 212);
             this.mnuPOS.Name = "mnuPOS";
+            this.mnuPOS.SeccionName = "/ Punto de Venta";
             this.mnuPOS.Size = new System.Drawing.Size(175, 39);
             this.mnuPOS.TabIndex = 1;
             this.mnuPOS.Tag = "frmPOS";
@@ -113,7 +117,6 @@
             this.mnuPOS.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.mnuPOS.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.mnuPOS.UseVisualStyleBackColor = false;
-            
             // 
             // mnuClientes
             // 
@@ -133,6 +136,7 @@
             this.mnuClientes.IsSelected = false;
             this.mnuClientes.Location = new System.Drawing.Point(-1, 257);
             this.mnuClientes.Name = "mnuClientes";
+            this.mnuClientes.SeccionName = null;
             this.mnuClientes.Size = new System.Drawing.Size(175, 39);
             this.mnuClientes.TabIndex = 1;
             this.mnuClientes.Tag = "frmClientes";
@@ -159,6 +163,7 @@
             this.mnuProductos.IsSelected = false;
             this.mnuProductos.Location = new System.Drawing.Point(2, 302);
             this.mnuProductos.Name = "mnuProductos";
+            this.mnuProductos.SeccionName = null;
             this.mnuProductos.Size = new System.Drawing.Size(175, 39);
             this.mnuProductos.TabIndex = 2;
             this.mnuProductos.Tag = "frmProductos";
@@ -185,6 +190,7 @@
             this.mnuReportes.IsSelected = false;
             this.mnuReportes.Location = new System.Drawing.Point(-1, 332);
             this.mnuReportes.Name = "mnuReportes";
+            this.mnuReportes.SeccionName = null;
             this.mnuReportes.Size = new System.Drawing.Size(175, 39);
             this.mnuReportes.TabIndex = 2;
             this.mnuReportes.Tag = "frmReportes";
@@ -211,6 +217,7 @@
             this.mnuEmpleados.IsSelected = false;
             this.mnuEmpleados.Location = new System.Drawing.Point(2, 367);
             this.mnuEmpleados.Name = "mnuEmpleados";
+            this.mnuEmpleados.SeccionName = null;
             this.mnuEmpleados.Size = new System.Drawing.Size(175, 39);
             this.mnuEmpleados.TabIndex = 3;
             this.mnuEmpleados.Tag = "frmEmpleados";
@@ -237,6 +244,7 @@
             this.mnuPerfiles.IsSelected = false;
             this.mnuPerfiles.Location = new System.Drawing.Point(2, 412);
             this.mnuPerfiles.Name = "mnuPerfiles";
+            this.mnuPerfiles.SeccionName = null;
             this.mnuPerfiles.Size = new System.Drawing.Size(175, 39);
             this.mnuPerfiles.TabIndex = 4;
             this.mnuPerfiles.Tag = "frmPerfiles";
@@ -263,6 +271,7 @@
             this.mnuConfiguracion.IsSelected = false;
             this.mnuConfiguracion.Location = new System.Drawing.Point(3, 477);
             this.mnuConfiguracion.Name = "mnuConfiguracion";
+            this.mnuConfiguracion.SeccionName = null;
             this.mnuConfiguracion.Size = new System.Drawing.Size(175, 39);
             this.mnuConfiguracion.TabIndex = 5;
             this.mnuConfiguracion.Tag = "frmConfiguracion";
@@ -270,6 +279,34 @@
             this.mnuConfiguracion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.mnuConfiguracion.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.mnuConfiguracion.UseVisualStyleBackColor = false;
+            // 
+            // mnuSalir
+            // 
+            this.mnuSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(66)))));
+            this.mnuSalir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mnuSalir.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(33)))), ((int)(((byte)(38)))));
+            this.mnuSalir.FlatAppearance.BorderSize = 0;
+            this.mnuSalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(33)))), ((int)(((byte)(38)))));
+            this.mnuSalir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(33)))), ((int)(((byte)(38)))));
+            this.mnuSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mnuSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.mnuSalir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.mnuSalir.Image = global::NerkSoft.Pos.Main.NerkRes24.menu_24_w_icon_cog;
+            this.mnuSalir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.mnuSalir.ImageNormal = global::NerkSoft.Pos.Main.NerkRes24.menu_24_w_icon_cog;
+            this.mnuSalir.ImageWhenSelected = global::NerkSoft.Pos.Main.NerkRes24.menu_24_b_icon_cog;
+            this.mnuSalir.IsSelected = false;
+            this.mnuSalir.Location = new System.Drawing.Point(3, 522);
+            this.mnuSalir.Name = "mnuSalir";
+            this.mnuSalir.SeccionName = null;
+            this.mnuSalir.Size = new System.Drawing.Size(175, 39);
+            this.mnuSalir.TabIndex = 6;
+            this.mnuSalir.Tag = "";
+            this.mnuSalir.Text = "  Salir";
+            this.mnuSalir.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.mnuSalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.mnuSalir.UseVisualStyleBackColor = false;
+            this.mnuSalir.Click += new System.EventHandler(this.mnuSalir_Click);
             // 
             // frmModulos
             // 
@@ -294,5 +331,6 @@
         private FrameWork.MetroUI.NerkLeftMenuItem mnuProductos;
         private FrameWork.MetroUI.NerkLeftMenuItem mnuClientes;
         private FrameWork.MetroUI.NerkLeftMenuItem mnuPOS;
+        private FrameWork.MetroUI.NerkLeftMenuItem mnuSalir;
     }
 }

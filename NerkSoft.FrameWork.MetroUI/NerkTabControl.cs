@@ -19,7 +19,7 @@ namespace NerkSoft.FrameWork.MetroUI
         {
             InitializeComponent();
 
-            this.Font = new Font("Segoe UI", (float)10);
+            this.Font = new Font(clsProjectTemplate.objFont.Fuente, (float)10);
         }
 
         protected override void OnCreateControl()

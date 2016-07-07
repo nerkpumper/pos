@@ -55,3 +55,20 @@ C:\PROYECTOS\NerkSoft\POS\NerkSoft.FrameWork.MetroUI\obj\Debug\NerkSoft.FrameWor
 C:\PROYECTOS\NerkSoft\POS\NerkSoft.FrameWork.MetroUI\obj\Debug\NerkSoft.FrameWork.MetroUI.dll
 C:\PROYECTOS\NerkSoft\POS\NerkSoft.FrameWork.MetroUI\obj\Debug\NerkSoft.FrameWork.MetroUI.pdb
 C:\PROYECTOS\NerkSoft\POS\NerkSoft.FrameWork.MetroUI\obj\Debug\NerkSoft.FrameWork.MetroUI.csprojResolveAssemblyReference.cache
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.FrameWork.MetroUI\bin\Debug\NerkSoft.FrameWork.MetroUI.dll
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.FrameWork.MetroUI\bin\Debug\NerkSoft.FrameWork.MetroUI.pdb
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.FrameWork.MetroUI\obj\Debug\NerkSoft.FrameWork.MetroUI.NerkForm.resources
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.FrameWork.MetroUI\obj\Debug\NerkSoft.FrameWork.MetroUI.NerkFormModulo.resources
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.FrameWork.MetroUI\obj\Debug\NerkSoft.FrameWork.MetroUI.NerkFormModuloTop.resources
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.FrameWork.MetroUI\obj\Debug\NerkSoft.FrameWork.MetroUI.NerkFormSeccion.resources
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.FrameWork.MetroUI\obj\Debug\NerkSoft.FrameWork.MetroUI.NerkMsgBox.resources
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.FrameWork.MetroUI\obj\Debug\NerkSoft.FrameWork.MetroUI.NerkNotify.resources
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.FrameWork.MetroUI\obj\Debug\NerkSoft.FrameWork.MetroUI.NerkPanel.resources
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.FrameWork.MetroUI\obj\Debug\NerkSoft.FrameWork.MetroUI.NerkPnlMsgBox.resources
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.FrameWork.MetroUI\obj\Debug\NerkSoft.FrameWork.MetroUI.NrkRecursos.resources
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.FrameWork.MetroUI\obj\Debug\NerkSoft.FrameWork.MetroUI.NerkTextBox.resources
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.FrameWork.MetroUI\obj\Debug\NerkSoft.FrameWork.MetroUI.Properties.Resources.resources
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.FrameWork.MetroUI\obj\Debug\NerkSoft.FrameWork.MetroUI.csproj.GenerateResource.Cache
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.FrameWork.MetroUI\obj\Debug\NerkSoft.FrameWork.MetroUI.dll
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.FrameWork.MetroUI\obj\Debug\NerkSoft.FrameWork.MetroUI.pdb
+C:\Users\SABES1\Documents\Visual Studio 2013\Projects\NerkSoft\pos\NerkSoft.FrameWork.MetroUI\obj\Debug\NerkSoft.FrameWork.MetroUI.NerkPanelNoCollapse.resources

@@ -46,11 +46,18 @@ namespace NerkSoft.Pos.Main
             ((NerkLeftMenuItem)sender).IsSelected = true;
 
             clsViewManager.Show(((NerkLeftMenuItem)sender).Tag.ToString());
+            clsViewManager.Principal.SetCurrentSeccion(((NerkLeftMenuItem)sender).SeccionName);
         }
 
         private void frmModulos_Load(object sender, EventArgs e)
         {
             mnuOption_Click(mnuDashboard, new EventArgs());
+        }
+
+        private void mnuSalir_Click(object sender, EventArgs e)
+        {
+            if (clsMessageBox.AskWarning("Desea salir del Sistema") == clsMessageBox.enumMsgBoxRespuestas.Yes)
+                Application.Exit();           
         }
 
         

@@ -33,7 +33,7 @@
             // 
             // SeccionName
             // 
-            this.SeccionName.Text = "Dashboard";
+            
             // 
             // frmDashboard
             // 

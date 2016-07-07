@@ -35,17 +35,17 @@ namespace NerkSoft.FrameWork.MetroUI
             this.SetStyle(ControlStyles.Selectable, true);
             //if (this.IsCustom) return;
 
-            this.Font = new Font("Segoe UI", (float)10);
+            this.Font = new Font(clsProjectTemplate.objFont.Fuente, (float)10);
             
 
             this.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 
-            this.BackColor = Color.FromArgb(255, 255, 255, 255);
-            this.ForeColor = Color.FromArgb(255, 38, 38, 38);
+            this.BackColor = clsProjectTemplate.objColors.Default.BackColor;
+            this.ForeColor = clsProjectTemplate.objColors.Default.ForeColor;
 
-            this.FlatAppearance.BorderColor = Color.FromArgb(255, 217, 217, 217);
-            this.FlatAppearance.MouseDownBackColor = Color.FromArgb(255, 255, 255, 255);
-            this.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 255, 255, 255);
+            this.FlatAppearance.BorderColor = clsProjectTemplate.objColors.Default.BorderColor;
+            this.FlatAppearance.MouseDownBackColor = clsProjectTemplate.objColors.Default.HoverBackColor;
+            this.FlatAppearance.MouseOverBackColor = clsProjectTemplate.objColors.Default.HoverBorderColor;
             this.FlatAppearance.BorderSize = 1;
 
             this.Cursor = Cursors.Hand;
@@ -81,19 +81,19 @@ namespace NerkSoft.FrameWork.MetroUI
             this.SetStyle(ControlStyles.Selectable, true);
             //if (this.IsCustom) return;
 
-            //this.Font = new Font("Segoe UI", (float)11.7);
+            //this.Font = new Font(clsProjectTemplate.NerkFont.Fuente, (float)11.7);
 
             //this.TabStop = true;
             //this.SetStyle(ControlStyles.Selectable, false);
 
             this.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 
-            this.BackColor = Color.FromArgb(255, 255, 255, 255);
-            this.ForeColor = Color.FromArgb(255, 38, 38, 38);
+            this.BackColor = clsProjectTemplate.objColors.Default.BackColor;
+            this.ForeColor = clsProjectTemplate.objColors.Default.ForeColor;
 
-            this.FlatAppearance.BorderColor = Color.FromArgb(255, 217, 217, 217);
-            this.FlatAppearance.MouseDownBackColor = Color.FromArgb(255, 255, 255, 255);
-            this.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 255, 255, 255);
+            this.FlatAppearance.BorderColor = clsProjectTemplate.objColors.Default.BorderColor;
+            this.FlatAppearance.MouseDownBackColor = clsProjectTemplate.objColors.Default.HoverBackColor;
+            this.FlatAppearance.MouseOverBackColor = clsProjectTemplate.objColors.Default.HoverBorderColor;
             this.FlatAppearance.BorderSize = 1;
 
 
@@ -153,86 +153,81 @@ namespace NerkSoft.FrameWork.MetroUI
         {
             switch (tipo)
             {
-                case enumTipoBoton.Default:
-                    //this.BackColor = clsProjectTemplate.objNerkButton.BackColor;
-                    //this.FlatAppearance.BorderColor = clsProjectTemplate.objNerkButton.FlatAppearanceBorderColor;
-                    //this.FlatAppearance.MouseDownBackColor = clsProjectTemplate.objNerkButton.FlatAppearanceMouseDownBackColor;
-                    //this.FlatAppearance.MouseOverBackColor = clsProjectTemplate.objNerkButton.FlatAppearanceMouseOverBackColor;
-                    //this.FlatAppearance.BorderSize = clsProjectTemplate.objNerkButton.FlatAppearanceBorderSize;
-                    //this.ForeColor = clsProjectTemplate.objNerkButton.ForeColor;
+                case enumTipoBoton.Default:                    
 
-                    this.BackColor = Color.FromArgb(255, 255, 255, 255);
-                    this.ForeColor = Color.FromArgb(255, 38, 38, 38);
+                    this.BackColor = clsProjectTemplate.objColors.Default.BackColor;
+                    this.ForeColor = clsProjectTemplate.objColors.Default.ForeColor;
 
-                    this.FlatAppearance.BorderColor = Color.FromArgb(255, 217, 217, 217);
-                    this.FlatAppearance.MouseDownBackColor = Color.FromArgb(255, 255, 255, 255);
-                    this.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 255, 255, 255);
+                    this.FlatAppearance.BorderColor = clsProjectTemplate.objColors.Default.BorderColor;
+                    this.FlatAppearance.MouseDownBackColor = clsProjectTemplate.objColors.Default.HoverBackColor;
+                    this.FlatAppearance.MouseOverBackColor = clsProjectTemplate.objColors.Default.HoverBorderColor;
                     this.FlatAppearance.BorderSize = 1;
 
                     break;
                 case enumTipoBoton.Danger:
-                    this.BackColor = Color.FromArgb(255, 206, 53, 44);
-                    this.ForeColor = Color.White;
+                    this.BackColor = clsProjectTemplate.objColors.Danger.BackColor;
+                    this.ForeColor = clsProjectTemplate.objColors.Danger.ForeColor;
 
-                    this.FlatAppearance.BorderColor = Color.FromArgb(255, 206, 53, 44);
-                    this.FlatAppearance.MouseDownBackColor = Color.FromArgb(255, 154, 22, 22);
-                    this.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 206, 53, 44);
+                    this.FlatAppearance.BorderColor = clsProjectTemplate.objColors.Danger.BorderColor;
+                    this.FlatAppearance.MouseDownBackColor = clsProjectTemplate.objColors.Danger.HoverBackColor;
+                    this.FlatAppearance.MouseOverBackColor = clsProjectTemplate.objColors.Danger.HoverBorderColor;
                     this.FlatAppearance.BorderSize = 1;
 
                     break;
                 case enumTipoBoton.Success:
-                    this.BackColor = Color.FromArgb(255, 96, 169, 23);
-                    this.ForeColor = Color.White;
+                    this.BackColor = clsProjectTemplate.objColors.Success.BackColor;
+                    this.ForeColor = clsProjectTemplate.objColors.Success.ForeColor;
 
-                    this.FlatAppearance.BorderColor = Color.FromArgb(255, 96, 169, 23);
-                    this.FlatAppearance.MouseDownBackColor = Color.FromArgb(255, 18, 128, 35);
-                    this.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 96, 169, 23);
+                    this.FlatAppearance.BorderColor = clsProjectTemplate.objColors.Success.BorderColor;
+                    this.FlatAppearance.MouseDownBackColor = clsProjectTemplate.objColors.Success.HoverBackColor;
+                    this.FlatAppearance.MouseOverBackColor = clsProjectTemplate.objColors.Success.HoverBorderColor;
                     this.FlatAppearance.BorderSize = 1;
 
                     break;
 
                 case enumTipoBoton.Primary:
-                    this.BackColor = Color.FromArgb(255, 32, 134, 191);
-                    this.ForeColor = Color.White;
+                    this.BackColor = clsProjectTemplate.objColors.Primary.BackColor;
+                    this.ForeColor = clsProjectTemplate.objColors.Primary.ForeColor;
 
-                    this.FlatAppearance.BorderColor = Color.FromArgb(255, 32, 134, 191);
-                    this.FlatAppearance.MouseDownBackColor = Color.FromArgb(255, 27, 110, 174);
-                    this.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 32, 134, 191);
+                    this.FlatAppearance.BorderColor = clsProjectTemplate.objColors.Primary.BorderColor;
+                    this.FlatAppearance.MouseDownBackColor = clsProjectTemplate.objColors.Primary.HoverBackColor;
+                    this.FlatAppearance.MouseOverBackColor = clsProjectTemplate.objColors.Primary.HoverBorderColor;
                     this.FlatAppearance.BorderSize = 1;
 
                     break;
                 case enumTipoBoton.Info:
-                    this.BackColor = Color.FromArgb(255, 89, 205, 226);
-                    this.ForeColor = Color.White;
+                    this.BackColor = clsProjectTemplate.objColors.Info.BackColor;
+                    this.ForeColor = clsProjectTemplate.objColors.Info.ForeColor;
 
-                    this.FlatAppearance.BorderColor = Color.FromArgb(255, 89, 205, 226);
-                    this.FlatAppearance.MouseDownBackColor = Color.FromArgb(255, 27, 161, 226);
-                    this.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 89, 205, 226);
+                    this.FlatAppearance.BorderColor = clsProjectTemplate.objColors.Info.BorderColor;
+                    this.FlatAppearance.MouseDownBackColor = clsProjectTemplate.objColors.Info.HoverBackColor;
+                    this.FlatAppearance.MouseOverBackColor = clsProjectTemplate.objColors.Info.HoverBorderColor;
                     this.FlatAppearance.BorderSize = 1;
 
                     break;
                 case enumTipoBoton.Warning:
-                    this.BackColor = Color.FromArgb(255, 250, 104, 0);
-                    this.ForeColor = Color.White;
 
-                    this.FlatAppearance.BorderColor = Color.FromArgb(255, 250, 104, 0);
-                    this.FlatAppearance.MouseDownBackColor = Color.FromArgb(255, 191, 90, 21);
-                    this.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 250, 104, 0);
+                    this.BackColor = clsProjectTemplate.objColors.Warning.BackColor;
+                    this.ForeColor = clsProjectTemplate.objColors.Warning.ForeColor;
+
+                    this.FlatAppearance.BorderColor = clsProjectTemplate.objColors.Warning.BorderColor;
+                    this.FlatAppearance.MouseDownBackColor = clsProjectTemplate.objColors.Warning.HoverBackColor;
+                    this.FlatAppearance.MouseOverBackColor = clsProjectTemplate.objColors.Warning.HoverBorderColor;
                     this.FlatAppearance.BorderSize = 1;
 
                     break;
                 default:
-                    this.BackColor = Color.FromArgb(255, 255, 255, 255);
-                    this.ForeColor = Color.FromArgb(255, 38, 38, 38);
+                    this.BackColor = clsProjectTemplate.objColors.Default.BackColor;
+                    this.ForeColor = clsProjectTemplate.objColors.Default.ForeColor;
 
-                    this.FlatAppearance.BorderColor = Color.FromArgb(255, 217, 217, 217);
-                    this.FlatAppearance.MouseDownBackColor = Color.FromArgb(255, 255, 255, 255);
-                    this.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 255, 255, 255);
+                    this.FlatAppearance.BorderColor = clsProjectTemplate.objColors.Default.BorderColor;
+                    this.FlatAppearance.MouseDownBackColor = clsProjectTemplate.objColors.Default.HoverBackColor;
+                    this.FlatAppearance.MouseOverBackColor = clsProjectTemplate.objColors.Default.HoverBorderColor;
                     this.FlatAppearance.BorderSize = 1;
 
                     break;
             }
-            //this.Font = new Font("Segoe UI", (float)11.7);
+            //this.Font = new Font(clsProjectTemplate.NerkFont.Fuente, (float)11.7);
             this.Invalidate();
         }
 
